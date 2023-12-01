@@ -1,0 +1,75 @@
+.teamTable__title {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  color: white;
+  padding: 10px 20px;
+  background-color: #f29300;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.teamTable::-webkit-scrollbar {
+  display: none;
+}
+.teamTable {
+  position: absolute;
+  top: 80px;
+  left: 25px;
+  overflow-y: scroll;
+  width: 800px;
+  height: 600px;
+  background-color: #dbd9d6;
+  border-radius: 20px;
+}
+
+.team {
+  position: relative;
+  margin: 20px;
+  border: none;
+  width: 750px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: wheat;
+}
+
+.SearchTeam {
+  position: absolute;
+  top: 40px;
+  right: 100px;
+  width: 200px;
+}
+
+
+.searchIcon {
+  position: absolute;
+  top: 17px;
+  right: -50px;
+}
+
+.classinfo{
+  display: flex;
+}
+.className{
+  flex-basis: 500px;
+  color: white;
+  background-color: #d4a373;
+  border-radius:10px 0 0 0;
+  padding: 10px 10px 10px 30px;
+  height: 1.5rem;
+}
+.classProf{
+  flex-basis: 250px;
+  color: white;
+  background-color: #d4a373;
+  border-radius:0 10px 0 0;
+  padding: 10px;
+  height:1.5rem;
+  border-left: 1px dotted black;
+}
+.description{
+  margin: 10px;
+  font-size: small;
+  padding-left: 10px;
+  padding-top: 5px;
+}
